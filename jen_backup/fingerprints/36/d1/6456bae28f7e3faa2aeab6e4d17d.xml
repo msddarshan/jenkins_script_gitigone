@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-01-15 05:34:39.833 UTC</timestamp>
+  <md5sum>36d16456bae28f7e3faa2aeab6e4d17d</md5sum>
+  <fileName>Credential id=github name=ddarshan/****** (github login)</fileName>
+  <usages>
+    <entry>
+      <string>build_1</string>
+      <ranges>1-12</ranges>
+    </entry>
+    <entry>
+      <string>test_1</string>
+      <ranges>2-4</ranges>
+    </entry>
+    <entry>
+      <string>deploy_1</string>
+      <ranges>1-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

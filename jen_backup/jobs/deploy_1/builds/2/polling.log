@@ -1,0 +1,11 @@
+Started on Jan 15, 2020 3:21:59 PM
+Started by event from 192.30.252.97 ⇒ http://3.16.45.90:8080/github-webhook/ on Wed Jan 15 15:21:59 UTC 2020
+Using strategy: Default
+using credential github
+ > /usr/bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials github login
+ > /usr/bin/git ls-remote -h -- https://github.com/msddarshan/assignment_today.git # timeout=10
+Found 1 remote heads on https://github.com/msddarshan/assignment_today.git
+[poll] Latest remote head revision on refs/heads/master is: d74252f9bb44cb1fd1b22f77d87967de681e6645
+Done. Took 0.12 sec
+Changes found

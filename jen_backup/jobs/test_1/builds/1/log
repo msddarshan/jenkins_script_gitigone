@@ -1,0 +1,25 @@
+Started by GitHub push by msddarshan
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/test_1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/msddarshan/assignment_today.git
+ > /usr/bin/git init /var/lib/jenkins/workspace/test_1 # timeout=10
+Fetching upstream changes from https://github.com/msddarshan/assignment_today.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress -- https://github.com/msddarshan/assignment_today.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/msddarshan/assignment_today.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/msddarshan/assignment_today.git # timeout=10
+Fetching upstream changes from https://github.com/msddarshan/assignment_today.git
+ > /usr/bin/git fetch --tags --progress -- https://github.com/msddarshan/assignment_today.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1aa1a3d19f96ec5f208ff5e4220f437e31891a63 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 1aa1a3d19f96ec5f208ff5e4220f437e31891a63 # timeout=10
+Commit message: "Update sort.c"
+First time build. Skipping changelog.
+[test_1] $ /bin/sh -xe /tmp/jenkins8128846240630635486.sh
+Triggering a new build of [8mha:////4IjJFlcyt1mMP5tMqjHfdQFomzdeQPlHshcQUgLjvWfbAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2S1OKSeEN9AL7My6LBAAAA[0mtest_1
+Finished: SUCCESS

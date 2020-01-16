@@ -1,0 +1,28 @@
+Started by GitHub push by msddarshan
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/build_1
+using credential github
+Cloning the remote Git repository
+Cloning repository https://github.com/msddarshan/assignment_today.git
+ > /usr/bin/git init /var/lib/jenkins/workspace/build_1 # timeout=10
+Fetching upstream changes from https://github.com/msddarshan/assignment_today.git
+ > /usr/bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials github login
+ > /usr/bin/git fetch --tags --progress -- https://github.com/msddarshan/assignment_today.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/msddarshan/assignment_today.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/msddarshan/assignment_today.git # timeout=10
+Fetching upstream changes from https://github.com/msddarshan/assignment_today.git
+using GIT_ASKPASS to set credentials github login
+ > /usr/bin/git fetch --tags --progress -- https://github.com/msddarshan/assignment_today.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e08cc975fc2bea2663afe72521c5a3ea93339749 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f e08cc975fc2bea2663afe72521c5a3ea93339749 # timeout=10
+Commit message: "Update big3.c"
+First time build. Skipping changelog.
+[build_1] $ /bin/sh -xe /tmp/jenkins1411407388148928922.sh
+Triggering a new build of [8mha:////4GmklE3AHtLdu87lnss2GAWcAAAoFz8tXWMHyRHap8JOAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP2U1IKc/Mp4Q30AdFy3rMMAAAA=[0mdeploy_1
+Triggering a new build of [8mha:////4Bh1hiuqPm6Q4PykvvuwldeNiGDXhflS/bZV2mAxLQskAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP2k0syclHhDfQAvUvTRwgAAAA==[0mbuild_1
+Finished: SUCCESS

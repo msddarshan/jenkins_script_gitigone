@@ -1,0 +1,26 @@
+Started by user [8mha:////4JtbixRYuGXAImqPbNfKQfj4H3YsiF06ik8JnqxrxpK7AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgY+/dLi1CL9lJTEouKMxDwAP4lIV8MAAAA=[0mDRUVA DARSHAN M S
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/webhook
+using credential 79256c96-71a0-4198-9e52-2ea253ba5993
+Cloning the remote Git repository
+Cloning repository https://github.com/msddarshan/web_hook15today.git
+ > /usr/bin/git init /var/lib/jenkins/workspace/webhook # timeout=10
+Fetching upstream changes from https://github.com/msddarshan/web_hook15today.git
+ > /usr/bin/git --version # timeout=10
+using GIT_SSH to set credentials 
+ > /usr/bin/git fetch --tags --progress -- https://github.com/msddarshan/web_hook15today.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/msddarshan/web_hook15today.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/msddarshan/web_hook15today.git # timeout=10
+Fetching upstream changes from https://github.com/msddarshan/web_hook15today.git
+using GIT_SSH to set credentials 
+ > /usr/bin/git fetch --tags --progress -- https://github.com/msddarshan/web_hook15today.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 776cc62d6cda22bda51a098c91014e77b716a858 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 776cc62d6cda22bda51a098c91014e77b716a858 # timeout=10
+Commit message: "Update big.c"
+First time build. Skipping changelog.
+[webhook] $ /bin/sh -xe /tmp/jenkins7089639985614111346.sh
+Finished: SUCCESS
