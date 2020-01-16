@@ -14,5 +14,4 @@ if [ $? -eq 0 ]; then
 body=`echo -e "HI,\nJenkins backup tacken sucessfully"`
 echo $body | mail -s "Regards Jenkin Backup on `date`" - c "mpkavya2411@gmail.com" "druvadarshan@gmail.com"
 else
-echo $body | mail -s "Regards Jenkin Backup failed on `date`" - c "druvadarshan@gmail.com"
-
+echo $body | mail -s "Regards Jenkin Backup failed on `date`" - c druvadarshan@gmail.com
